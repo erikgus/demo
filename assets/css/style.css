@@ -24,6 +24,7 @@ a {
 	padding-left: 25px;
 	background: url('../img/chevron-right.png') -6px -3px no-repeat;
 	background-size: 28px 28px;
+	text-decoration: none;
 }
 dd {
     border-top: 0; 
