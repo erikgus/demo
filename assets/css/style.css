@@ -1,0 +1,37 @@
+.notVisible {
+	visibility: hidden;
+}
+.accordion {
+   margin: 50px;
+   max-width: 600px;
+}
+dt {
+	background-color: #fbfbfb;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	box-shadow: 1px 1px 2px 0px #ccc;
+	border-radius: 2px;
+}
+dt, dd {
+	padding: 10px;
+}
+
+a {
+	display: block;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	padding-left: 25px;
+	background: url('../img/chevron-right.png') -6px -3px no-repeat;
+	background-size: 28px 28px;
+}
+dd {
+    border-top: 0; 
+    font-size: 16px;
+    background-color: #fff;
+    margin-left: 0px;
+}
+dd:last-of-type {
+	position: relative;
+	top: -1px;
+}
